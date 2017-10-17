@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.le.slideanddraglistview.SlideAndDragListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/deleteView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Delete"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/toTopView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ToTop"
+        android:textSize="36sp" />
+</com.le.slideanddraglistview.SlideAndDragListView>
