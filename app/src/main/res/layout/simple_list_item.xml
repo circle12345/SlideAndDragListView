@@ -9,21 +9,24 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textSize="32sp" />
 
     <TextView
         android:id="@+id/deleteView"
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_red_dark"
-        android:text="Delete"
-        android:textSize="36sp" />
+        android:gravity="center"
+        android:text="删除"
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/toTopView"
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
-        android:text="ToTop"
-        android:textSize="36sp" />
+        android:gravity="center"
+        android:text="置顶"
+        android:textSize="32sp" />
 </com.le.slideanddraglistview.SlideAndDragListView>

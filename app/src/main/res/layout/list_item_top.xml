@@ -3,9 +3,9 @@
     android:id="@+id/deleteView"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
-    android:background="@android:color/holo_red_dark"
+    android:background="@android:color/holo_orange_dark"
     android:gravity="center"
-    android:text="删除"
+    android:text="置顶"
     android:textSize="32sp">
 
 </TextView>
